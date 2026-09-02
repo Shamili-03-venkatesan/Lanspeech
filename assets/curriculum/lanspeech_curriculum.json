@@ -1,0 +1,4815 @@
+{
+  "program": {
+    "title": "LanSpeech",
+    "total_chapters": 10,
+    "total_exercises": 120,
+    "exercises_per_chapter": 12,
+    "notes": [
+      "Not specified by client: exact XP/points values, badge art, audio file naming convention beyond internal ID, whether reflection answers are stored or used anywhere downstream, streak semantics (daily vs completion-based — flagged for client clarification).",
+      "MVP explicitly has no pronunciation/fluency scoring and no live AI in this content set — coach is prerecorded audio; conversation exercises are scripted simulations, not real AI (per Chapter 3 and Chapter 6 developer notes in the source document).",
+      "Every field/section label from the client's source document is preserved verbatim per exercise in 'sections', in original order — nothing summarized away."
+    ]
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "Getting Comfortable With Your Voice",
+      "purpose": "The first chapter should make the user feel safe and comfortable using  LanSpeech.",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Not specified by client",
+      "chapter_progression": null,
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH01_EX01",
+          "exercise_number": 1,
+          "title": "Welcome to Your Practice",
+          "exercise_type": "Introduction",
+          "broad_activity_types": [
+            "Listen",
+            "Speak"
+          ],
+          "recording_note": "No.",
+          "sections": [
+            
+            {
+              "label": "What the user sees",
+              "text": "Welcome to LanSpeech 🌱 \nThis is your space to practice speaking without judgment.\nTake your time. \nThere is no perfect way to speak.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Welcome to LanSpeech.     This is your space to practice speaking   without judgment.      You don't need to speak perfectly, and there is no   score here.    Just take your time and speak in whatever way feels   comfortable.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user listens to the coach.  Then they tap:  I'm Ready",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "No.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion screen",
+              "text": "You're ready. Let's begin.  Button:  Continue",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX02",
+          "exercise_number": 2,
+          "title": "Meet Your Voice",
+          "exercise_type": "Speaking and recording",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Let's start with something simple.  Tell us:  Your name  and  One thing you enjoy",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Let's start with something simple. Tell us your first name and one   thing you enjoy doing. Take as much time as you need.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user taps:  🎙️ Start Recording  They speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "After recording",
+              "text": "▶️ Listen  🔄 Record Again  Continue",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "How did speaking feel?  😊 Comfortable  🙂 Okay  😐 A little difficult  😟 Difficult",
+              "kind": "reflection"
+            },
+            {
+              "label":"Completion message",
+              "text": "You did it. Your voice deserves to be heard.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX03",
+          "exercise_number": 3,
+          "title": "Listen Without Judging",
+          "exercise_type": "Listening and reflection",
+          "broad_activity_types": [
+            "Listen",
+            "Record",
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Listen to your recording  ▶️ Play Recording",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "\"Now listen to the recording you just made. You don't need to judge    how fluent you sounded. Simply notice your voice, your pace, and how   speaking felt.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user listens to their recording.  Then they choose what they noticed.",
+              "kind": "text"
+            },
+            {
+              "label": "Options",
+              "text": "My speaking pace  My breathing  Moments when I felt comfortable  Moments when speaking felt difficult  I didn't notice anything",
+              "kind": "reflection"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You're learning to notice your speech without judging  yourself.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX04",
+          "exercise_number": 4,
+          "title": "Take Your Time",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Optional.  If they choose to record:  🎙️ Start Recording",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Take a comfortable breath.  Then say:  I have something to say, and I can take my time saying it.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"For this exercise, we're going to give ourselves permission to slow    down. Take a comfortable breath. Then say the sentence on the    screen.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user speaks the sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional.  If they choose to record:  🎙️ Start Recording",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice work. There's no need to rush.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX05",
+          "exercise_number": 5,
+          "title": "Choose Your Own Sentence",
+          "exercise_type": "Speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Optional.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Choose a sentence that feels comfortable for you.  For example:  Today is a good day.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Choose a sentence that feels easy and comfortable for you. It can be    as simple as, 'Today is a good day.' Say your sentence in your own    way.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user speaks their sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Well done. You chose your own words.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX06",
+          "exercise_number": 6,
+          "title": "Pause Before You Speak",
+          "exercise_type": "Guided practice",
+          "broad_activity_types": [
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Yes.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Take a comfortable breath.  Pause.  Then say:    My name is [your name].",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Before you speak, give yourself a moment. Take a comfortable breath.      Pause briefly. Then say the sentence on the screen.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user repeats the sentence two times.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice job giving yourself time.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX07",
+          "exercise_number": 7,
+          "title": "Talk About Something You Love",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Listen",
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Talk about something you enjoy.  You can talk about:  🎵 Music  ⚽ Football  🍔 Food  🎮 Gaming  🎬 Movies  📚 School  💼 Work",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Now let's talk about something you enjoy. Choose any topic you    like. You can talk about music, football, food, school, work, movies,    gaming, or anything else that interests you.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user taps:  🎙️ Start Recording  They speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "After recording",
+              "text": "▶️ Listen  🔄 Record Again  Continue",
+              "kind": "text"
+            },
+            {
+              "label": "Completion message",
+              "text": "You had something to say, and you said it.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX08",
+          "exercise_number": 8,
+          "title": "Imagine a Comfortable Conversation",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Optional.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Think of someone you feel comfortable talking to.  Now imagine they are sitting with you.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Think about someone you feel comfortable talking to. Imagine    they're sitting with you. Now tell them about something interesting    that happened today.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for approximately 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. Keep speaking in your own way.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX09",
+          "exercise_number": 9,
+          "title": "Read at Your Own Pace",
+          "exercise_type": "Reading aloud",
+          "broad_activity_types": [
+            "Listen",
+            "Read",
+            "Record"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read this aloud.Every day gives me another opportunity to learn, grow, and expressmyself.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Now we're going to practice reading. Read the sentence on the   screen. Give yourself enough time between phrases. You don't need to    rush.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user taps:  🎙️ Start Recording  Then reads the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "After recording",
+              "text": "▶️ Listen  🔄 Record Again  Continue",
+              "kind": "text"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great job. Your pace belongs to you.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX10",
+          "exercise_number": 10,
+          "title": "Something I Wish People Knew",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Complete this sentence:    \nOne thing I wish people understood about my speech is ...",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Sometimes people don't understand what it's like to stammer. This    is your opportunity to express yourself. Complete the sentence in    whatever way feels right for you.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Record for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Thank you for sharing that. ❤️",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX11",
+          "exercise_number": 11,
+          "title": "Your One Minute",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You choose the topic.  Talk about anything you want for one minute.  Ideas:  Music  Football  Family  School  Work  Travel  Technology  Food  Movies",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You're almost finished with your first practice. For the next    minute, choose any topic you want and speak about it. There is no    script and there is no perfect answer.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum duration:  60 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just completed your first free speaking practice.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH01_EX12",
+          "exercise_number": 12,
+          "title": "Your First Practice Complete 🎉",
+          "exercise_type": "Completion and reflection",
+          "broad_activity_types": [
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You did it!  Chapter 1 complete  12 / 12 exercises  Today's practice  10 minutes  🔥 1 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You did it. You completed your first LanSpeech practice. Take a    moment to recognize that. You showed up, you practiced, and you gave    yourself permission to speak.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "How do you feel after today's practice?  😊 Proud  😊 Encouraged  🙂 Okay  😐 Unsure",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "You showed up today. That's what matters.",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "title": "Breathing and Preparation",
+      "purpose": "Help users become more comfortable preparing to speak,  noticing their breathing, pausing naturally, and beginning speech  without rushing.",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Beginner",
+      "chapter_progression": null,
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH02_EX01",
+          "exercise_number": 1,
+          "title": "Arrive and Settle",
+          "exercise_type": "Guided breathing",
+          "broad_activity_types": [
+            "Listen",
+            "Speak"
+          ],
+          "recording_note": "No.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Take a moment 🌱  Before we speak, let's take a moment to settle.  Sit comfortably.  Relax your shoulders.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Welcome back to LanSpeech. Before we begin speaking today, let's    take a moment to settle. Sit comfortably and let your shoulders relax.    There's nothing you need to force. Just notice your breathing.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user sits comfortably and listens.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "No.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You're ready. Let's practice.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX02",
+          "exercise_number": 2,
+          "title": "Notice Your Breathing",
+          "exercise_type": "Breathing awareness",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "No.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Notice your breath  You don't need to change it.  Just notice:  Inhale  Exhale",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"For the next few moments, simply notice your breathing. Feel the air    moving in, and feel it moving out. You don't need to change your   breathing. Just notice it.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Follow the coach for approximately 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "No.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You took a moment to slow down and notice.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX03",
+          "exercise_number": 3,
+          "title": "Comfortable Breath",
+          "exercise_type": "Guided breathing",
+          "broad_activity_types": [
+            "Repeat"
+          ],
+          "recording_note": "No.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Breathe comfortably  Take a gentle breath in.  Then let it out naturally.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Take a gentle, comfortable breath in. Now let the breath out    naturally. Don't force a deep breath. Simply breathe in a way that    feels comfortable for you.\"  Repeat for approximately 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Follow the coach.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "No.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Good. Keep it comfortable.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX04",
+          "exercise_number": 4,
+          "title": "Relax Your Shoulders",
+          "exercise_type": "Preparation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "No.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Relax  Let your shoulders drop.  Relax your jaw.  Take a comfortable breath.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Before we speak, check your shoulders. If they're tense, let them    relax. Let your jaw feel comfortable. Take a natural breath. You    don't need to prepare perfectly. You're simply getting ready to    speak.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Follow the instructions.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "No.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You're ready to speak.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX05",
+          "exercise_number": 5,
+          "title": "Prepare Then Speak",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Optional.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Prepare  \n1.  Breathe comfortably.  \n2.  Pause briefly. \n3.  Say: Today I am giving myself time to speak.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Let's put preparation and speaking together. Take a comfortable    breath. Pause briefly. Then say the sentence on the screen in your own    way.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Well done. You gave yourself time to begin.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX06",
+          "exercise_number": 6,
+          "title": "Three Comfortable Starts",
+          "exercise_type": "Speaking practice",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes.  |  Up to 60 seconds.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Practice starting  Say each sentence in your own time.  My name is... ,Today I... , I would like to....",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"We're going to practice three simple sentence beginnings. Take your    time before each one. There is no need to rush into the sentence.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say all three sentences aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes.",
+              "kind": "recording"
+            },
+            {
+              "label": "Recording duration",
+              "text": "Up to 60 seconds.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You practiced starting without rushing.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX07",
+          "exercise_number": 7,
+          "title": "Pause Between Ideas",
+          "exercise_type": "Reading and pacing",
+          "broad_activity_types": [
+            "Listen",
+            "Read",
+            "Record"
+          ],
+          "recording_note": "Yes.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Give yourself space  Read this aloud:  I woke up early today. I had breakfast. Then I started my day.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Read the three sentences aloud. You can pause naturally between each    sentence. Give yourself enough time to move from one idea to the    next.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read the passage aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes.",
+              "kind": "recording"
+            },
+            {
+              "label": "After recording",
+              "text": "▶️ Listen  🔄 Record Again  Continue",
+              "kind": "text"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice work. You allowed space between your ideas.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX08",
+          "exercise_number": 8,
+          "title": "Speak in Short Phrases",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "One idea at a time  Say:  My favorite food is pizza.  \nPause. \n Then:    I like it because it is delicious.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Let's practice expressing one idea at a time. Say the first    sentence. Give yourself a comfortable pause. Then say the second    sentence. You don't need to connect everything together quickly.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak both sentences.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Good work. One idea at a time.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX09",
+          "exercise_number": 9,
+          "title": "Start a Conversation",
+          "exercise_type": "Speaking practice",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Yes.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine someone asks:   How are you today?  Your answer:  I'm doing well because...  Finish the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine someone has just asked you how you are today. Take a   comfortable breath, pause if you want to, and answer naturally. There   is no perfect answer.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Record an answer for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just practiced starting a real conversation.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX10",
+          "exercise_number": 10,
+          "title": "Prepare for a Phone Call",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Optional.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine your phone rings 📱  You answer:   Hello, this is [your name]. How can I help you?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're answering a phone call. Before you speak, give    yourself a moment. Then answer the call using the sentence on the    screen.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence aloud.  Then repeat it once.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You're practicing for real conversations.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX11",
+          "exercise_number": 11,
+          "title": "Your Own Speaking Preparation",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Create your own routine  Before speaking:  Breathe comfortably  ↓  Pause  ↓  Speak  Now talk about:  What did you do today?  Speak for 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Now create your own preparation routine. Before you speak, take a   comfortable breath and pause if you want to. Then tell us about   something you did today.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You found your own way to prepare.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH02_EX12",
+          "exercise_number": 12,
+          "title": "Your Preparation Practice Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Record",
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 2 Complete!  12 / 12 exercises  🔥 2 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You completed another practice session. Today you practiced noticing    your breathing, preparing before speaking, and giving yourself time.    Remember, there is no need to speak perfectly. Keep practicing in a    way that feels comfortable for you.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Which part of today's practice did you like most?  🌱 Breathing  ⏸️ Pausing  🗣️ Speaking  🎙️ Recording  💭 Reflection",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "You're building your practice one day at a time.",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "title": "Speaking With Ease",
+      "purpose": "Help users practice speaking in short, manageable phrases  while encouraging a comfortable speaking pace and reducing the pressure  to speak perfectly.",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Beginner",
+      "chapter_progression": "Listen → Repeat → Speak → Connect → Read → Respond → Freely speak",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH03_EX01",
+          "exercise_number": 1,
+          "title": "Find Your Comfortable Voice",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Optional",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Start comfortably 🌱  Say:   Hello, it's good to be here.  Take your time.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Let's begin with a simple sentence. Say, 'Hello, it's good to be   here.' Take your time and say it in whatever way feels comfortable.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the sentence once.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Good start. Let's keep going.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX02",
+          "exercise_number": 2,
+          "title": "Repeat After Me",
+          "exercise_type": "Repeat after coach",
+          "broad_activity_types": [
+            "Listen",
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Listen, then speak  The coach will say:   I am ready to practice.  Then the user repeats it.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Listen to the sentence first. When I'm finished, repeat it in your    own time.\"  Coach audio:   \"I am ready to practice.\"  Pause.",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Repeat the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You repeated it in your own time.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX03",
+          "exercise_number": 3,
+          "title": "Three Simple Sentences",
+          "exercise_type": "Repeat after coach",
+          "broad_activity_types": [
+            "Listen",
+            "Repeat"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Listen and repeat:    My name is .... ,I live in... , I enjoy... ",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"We're going to practice three simple sentences. Listen to each    sentence, then repeat it. Give yourself as much time as you need.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The coach plays each sentence separately.  The user repeats each one.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great work. Three sentences complete.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX04",
+          "exercise_number": 4,
+          "title": "Add One More Word",
+          "exercise_type": "Speech expansion",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Start with:   I like music.  Now add one more idea:   I like music because...",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Let's make a sentence a little longer. Start with 'I like music.'   Then add one more idea by saying, 'I like music because...' Finish   the sentence in your own words.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Complete the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Example",
+              "text": " \"I like music because it helps me relax.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Excellent. You expanded your idea.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX05",
+          "exercise_number": 5,
+          "title": "Keep Going",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Complete the thought   My favorite place is...  Then explain:   I like it because...",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Choose a place you enjoy. Complete the first sentence. Then explain    why you like that place. Take your time moving from one idea to the    next.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for approximately 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You kept your idea going. Well done.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX06",
+          "exercise_number": 6,
+          "title": "Read and Repeat",
+          "exercise_type": "Reading and repetition",
+          "broad_activity_types": [
+            "Listen",
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Listen first 🎧",
+              "text": "  \"I enjoy spending time with people I care about.\"  Then:",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn 🎙️",
+              "text": "Read the sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Listen to the sentence first. Then read it aloud from the screen.    You don't need to copy my exact pace. Use your own comfortable    pace.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Listen.  Then read the sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice work. You used your own pace.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX07",
+          "exercise_number": 7,
+          "title": "Connect Two Ideas",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Tell us two things  What did you do today?  and  How did it make you feel?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "\"Tell us about something you did today. Then tell us how it made you    feel. You can pause between your ideas.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You connected two ideas.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX08",
+          "exercise_number": 8,
+          "title": "Ask and Answer",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Listen"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Coach asks:",
+              "text": "\"What is your favorite food?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn:",
+              "text": "Answer the question.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine we're having a casual conversation. I'll ask you a    question. Listen carefully, then answer in your own words.\"  Coach:    \"What is your favorite food?\"  Pause.",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Answer for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice answer. Let's keep the conversation going.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX09",
+          "exercise_number": 9,
+          "title": "Ask Me a Question",
+          "exercise_type": "Spontaneous speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Optional",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Your turn to ask  Imagine you're meeting someone for the first time.  Ask them one question.  Examples:  Where are you from? \n What do you do?   \n What do you enjoy doing?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Now you're going to ask the question. Choose one of the examples or    create your own. Imagine you're speaking to someone you've just    met.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Ask one question aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You took the initiative to start a conversation.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX10",
+          "exercise_number": 10,
+          "title": "Tell a Short Story",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required  Maximum:  60 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Tell a short story 📖  Talk about something funny, interesting, or memorable that happened to  you.  Start with:    One day...  Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Think of something memorable that happened to you. It can be funny,   interesting, surprising, or even ordinary. Start with the words, 'One   day\\...' and tell the story in your own way.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required  Maximum:  60 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You told a story. That's real communication.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX11",
+          "exercise_number": 11,
+          "title": "Speak Without a Script",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Read",
+            "Record",
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "No script this time.  Choose one:  🎵 Music  ⚽ Sports  🍕 Food  🎮 Games  🎬 Movies  ✈️ Travel  📚 School  💼 Work",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"For this exercise, there is no sentence to repeat and no paragraph    to read. Choose a topic you enjoy and speak about it for one minute.    You can pause, change your words, or take your time. Just keep    expressing your ideas.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum:  60 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You spoke without a script. That's a big step.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH03_EX12\n\nFor Exercises 2, 3 and 6, where the user repeats the coach, don't\nimmediately start recording.\n\nThe mobile interaction should be:\n\n**Coach speaks**\n\n🎧 *\"I am ready to practice.\"*\n\n↓\n\n**Your turn**\n\n🎙️ **Speak now**\n\n↓\n\nUser speaks\n\n↓\n\n**Nice work**\n\nThis creates a much more natural experience than having the microphone\nrecording continuously.\n\nAnd importantly, **the app should not tell the user \"Correct\" or\n\"Incorrect.\"** There is no pronunciation or fluency scoring in this\nMVP. The goal is guided practice, not testing.",
+          "exercise_number": 12,
+          "title": "Speaking With Ease Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Listen",
+            "Reflect",
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 3 Complete!  12 / 12 exercises  🔥 3 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You completed today's practice. You repeated sentences, answered    questions, shared your ideas, and spoke without a script. Remember,    speaking isn't about being perfect. It's about being able to express    yourself.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Which exercise felt easiest today?  🎧 Listening  🗣️ Repeating  📖 Reading  💬 Answering questions  🎙️ Free speaking",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "Three days of showing up. Keep going. 🌱",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "title": "Finding Your Pace",
+      "purpose": "Not specified by client",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Beginner to early intermediate",
+      "chapter_progression": null,
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH04_EX01",
+          "exercise_number": 1,
+          "title": "Notice Your Pace",
+          "exercise_type": "Awareness",
+          "broad_activity_types": [
+            "Listen",
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "How do you normally speak?  Say this sentence naturally:    \"Today I have a lot of things to do.\"  Don't change your pace.  Just speak naturally.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Let's begin by noticing your natural speaking pace. Say the   sentence on the screen in your normal way. Don't try to speak faster   or slower. We're simply noticing.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "After recording",
+              "text": "▶️ Listen to my recording",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "How did your pace feel?  😊 Comfortable  😐 Neutral  😟 A little rushed  🐢 A little slow",
+              "kind": "reflection"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. Today we're learning to notice our pace, not judge it.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX02",
+          "exercise_number": 2,
+          "title": "Give Yourself a Pause",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Say:    I woke up early today.  Pause.  Then:   I had breakfast.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Let's practice giving yourself a little space between ideas. Say   the first sentence. Pause naturally. Then say the second sentence. The   pause doesn't need to be long.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak both sentences.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You gave yourself space between your ideas.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX03",
+          "exercise_number": 3,
+          "title": "One Phrase at a Time",
+          "exercise_type": "Guided reading",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read:    I went to the market or  bought some food or and came home.  The / represents a comfortable pause.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Read this sentence in three small parts. Pause naturally where you   see the line. You can take more or less time depending on what feels   comfortable.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read the sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Good. You practiced moving through a sentence one idea at a time.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX04",
+          "exercise_number": 4,
+          "title": "Choose Your Pace",
+          "exercise_type": "Speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Say this sentence three ways  :  I enjoy spending time with my friends.",
+              "kind": "text"
+            },
+            {
+              "label": "Round 1",
+              "text": "Your natural pace.",
+              "kind": "text"
+            },
+            {
+              "label": "Round 2",
+              "text": "A little more relaxed.",
+              "kind": "text"
+            },
+            {
+              "label": "Round 3",
+              "text": "Whatever pace feels best.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"You're going to say the same sentence three times. First, speak  \" naturally. Second, try a slightly more relaxed pace. Third, choose  \" whichever pace feels most comfortable. There is no better or worse  \" version.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Record all three attempts.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You found the pace that felt best to you.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX05",
+          "exercise_number": 5,
+          "title": "Don't Rush the Beginning",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Before speaking:  Pause  ↓  Begin comfortably  Say:    I would like to tell you about my day.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Sometimes we feel pressure to get our words out quickly. For this  \" exercise, give yourself a moment before beginning. Then say the  \" sentence in your own way.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Good. You gave yourself time before beginning.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX06",
+          "exercise_number": 6,
+          "title": "Build the Sentence",
+          "exercise_type": "Speech expansion",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Start with:    I like music.  Add:    I like music because... , Add another idea:  ,  My favorite artist is...",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Let's gradually make one idea longer. Start with the first  \" sentence. Then add another thought. Finally, tell us your favorite  \" artist or type of music.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak all three parts.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You built your idea step by step.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX07",
+          "exercise_number": 7,
+          "title": "Pause Between Thoughts",
+          "exercise_type": "Reading aloud",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read:    My morning was busy. I had several things to do. After that, I finally had some time to relax.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Read this paragraph aloud. Notice the different ideas. You can pause  \" naturally between the sentences. Let the meaning of each sentence  \" guide your pace.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice work. You let each idea have its own space.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX08",
+          "exercise_number": 8,
+          "title": "Answer Without Rushing",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Someone asks:",
+              "text": "  What did you do last weekend?  Take a moment.  Then answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine someone asks you what you did last weekend. You don't need  \" to answer immediately. Take a comfortable moment, then tell them what  \" you did.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You gave yourself time to think and respond.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX09",
+          "exercise_number": 9,
+          "title": "Tell Me About Your Day",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Tell me about your day.  Try to include:  Something you did  Something you enjoyed  Something you want to do next",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Now let's practice connecting several ideas. Tell me something you  \" did today, something you enjoyed, and something you'd like to do  \" next. Take your time moving from one idea to another.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Record for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You connected several ideas. Well done.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX10",
+          "exercise_number": 10,
+          "title": "Conversation Challenge",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're meeting someone new.  They ask:    Where are you from?  Answer.  Then:  What do you enjoy doing?  Answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're meeting someone for the first time. I'll give you  \" two questions. Take your time answering each one.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Answer both questions.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just handled two questions in a conversation.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX11",
+          "exercise_number": 11,
+          "title": "Your Comfortable Speaking Pace",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Your final challenge 🎙️  Choose one topic:  Your favorite person  Your favorite place  Your favorite food  Something you're proud of  Something you want to learn  Speak for one minute.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"This is your final speaking challenge. Choose any topic from the  \" screen. Before you begin, take a comfortable moment. Then speak for  \" one minute. You can pause, change your words, or take your time. Focus  \" on expressing your ideas rather than speaking perfectly.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum duration:  60 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You gave yourself time to communicate. Great work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH04_EX12",
+          "exercise_number": 12,
+          "title": "Finding Your Pace Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Record",
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 4 Complete!  12 / 12 exercises  🔥 4 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"You completed today's practice. You worked on pausing, giving  \" yourself time, connecting ideas, and finding a comfortable speaking  \" pace. Remember, your goal isn't to speak at one specific speed. Your  \" goal is to communicate in a way that feels comfortable and works for  \" you.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "What helped you most today?  ⏸️ Pausing  🗣️ Speaking in phrases  💭 Taking time to think  🎙️ Recording myself  📖 Reading aloud",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "Four days. Four practices. Keep going. 🌱",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "title": "Reading Aloud",
+      "purpose": "Not specified by client",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Beginner to early intermediate",
+      "chapter_progression": "Words → Short sentences → Connected sentences → Short paragraphs →  Dialogue → Expressive reading → Personal reading challenge",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH05_EX01",
+          "exercise_number": 1,
+          "title": "Start With a Sentence",
+          "exercise_type": "Reading aloud",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes  |  15 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read this aloud    I am taking my time today.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Let's start with one simple sentence. Read the sentence on your  \" screen aloud. Take your time and use whatever pace feels  \" comfortable.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read the sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Maximum recording",
+              "text": "15 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice start.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX02",
+          "exercise_number": 2,
+          "title": "Three Short Sentences",
+          "exercise_type": "Reading aloud",
+          "broad_activity_types": [
+            "Listen",
+            "Read"
+          ],
+          "recording_note": "Yes  |  30 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read:    My name is Alex. I live in Accra. I enjoy listening to music.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Now let's read three short sentences. You can pause naturally  \" between each sentence. There's no need to rush.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read the passage aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Maximum recording",
+              "text": "30 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. Three sentences complete.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX03",
+          "exercise_number": 3,
+          "title": "Read in Phrases",
+          "exercise_type": "Guided reading",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read each phrase separately:    After I finished school,  Pause.    I went home  Pause.    and had something to eat.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"This time, notice how the sentence is divided into ideas. Read each  \" phrase and give yourself a comfortable moment before continuing.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read the three phrases.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Good. You gave each idea some space.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX04",
+          "exercise_number": 4,
+          "title": "A Morning Routine",
+          "exercise_type": "Reading aloud",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes  |  45 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read this short passage  I usually wake up in the morning and get ready for the day. I have   breakfast, check my phone, and think about what I need to do.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Read this short passage aloud. Don't worry about matching a  \" particular speed. Focus on understanding what you're reading and  \" expressing the ideas naturally.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Maximum recording",
+              "text": "45 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Well done. You just completed your first short passage.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX05",
+          "exercise_number": 5,
+          "title": "Add Expression",
+          "exercise_type": "Expressive reading",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read this sentence as if you're excited:    I finally got the opportunity I've been waiting for!",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"This time, let's focus on expression. Imagine something exciting  \" just happened. Read the sentence as if you're telling a friend the  \" good news.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. Your voice can express emotion too.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX06",
+          "exercise_number": 6,
+          "title": "Read Like You're Talking",
+          "exercise_type": "Conversational reading",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're talking to a friend:    Hey! How have you been? I haven't seen you in a while. What have    you been up to?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine this is a real conversation with a friend. Read the dialogue  \" naturally, as if you're actually talking to them.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read the dialogue aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. That sounded more like a conversation.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX07",
+          "exercise_number": 7,
+          "title": "Tell a Story From the Page",
+          "exercise_type": "Narrative reading",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes  |  60 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "  Last Saturday, I decided to visit a friend. I left home in the   afternoon and took a bus across town. When I arrived, we talked for a   while and then went out to get some food. It turned out to be a really   good day.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Now you're going to read a short story. Imagine you're telling  \" someone about what happened. Let your voice follow the story.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Maximum recording",
+              "text": "60 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great storytelling.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX08",
+          "exercise_number": 8,
+          "title": "Read a Conversation",
+          "exercise_type": "Dialogue practice",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Person A",
+              "text": "  Hi, how are you?    I'm good. What are you doing this weekend?",
+              "kind": "text"
+            },
+            {
+              "label": "Person B",
+              "text": "  I'm doing well. How about you?    I'm planning to spend some time with my friends.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're having this conversation with someone you know. Read  \" both parts aloud. Focus on making the conversation feel natural.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read both parts.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You just practiced a full conversation from the page.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX09",
+          "exercise_number": 9,
+          "title": "Read Something You Enjoy",
+          "exercise_type": "Personalized reading",
+          "broad_activity_types": [
+            "Read"
+          ],
+          "recording_note": "Optional",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Find something you enjoy reading.  Choose one:  📱 A social media post  📰 A short article  📖 A book  💬 A message  📝 Your own writing",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Now choose something you actually enjoy reading. It could be a short  \" article, a message, a book, or even something you wrote yourself. Read  \" a short section aloud.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You brought your own words into practice.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX10",
+          "exercise_number": 10,
+          "title": "Read With Confidence",
+          "exercise_type": "Confidence reading",
+          "broad_activity_types": [
+            "Read",
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Read:    I have something to say. I deserve the time to say it. My voice    matters.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Read these sentences aloud. As you speak, focus on the meaning of  \" the words. You don't need to sound perfect. Just let yourself say  \" them.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Read aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Your voice matters. Keep going.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX11",
+          "exercise_number": 11,
+          "title": "Your Reading Challenge",
+          "exercise_type": "Extended reading",
+          "broad_activity_types": [
+            "Read",
+            "Record"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Choose your challenge  Read aloud for one minute.  You can choose:  📖 A book  📰 An article  📱 A post  📝 Your own writing",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"This is your final reading challenge. Choose something you'd  \" actually like to read. Find a comfortable place and read aloud for one  \" minute. You can pause whenever you need to.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum duration:  60 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "One full minute of reading. Excellent work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH05_EX12",
+          "exercise_number": 12,
+          "title": "Reading Practice Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 5 Complete!  12 / 12 exercises  🔥 5 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You've completed five days of LanSpeech practice. Today you   practiced reading sentences, passages, conversations, and stories.    Reading gives you words to work with, but remember that communication    is about more than perfect words. Keep giving yourself permission to    speak.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "What type of reading did you enjoy most?  📖 Short sentences  📚 Stories  💬 Conversations  🎭 Expressive reading  📝 Reading something I chose",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "Five days. You're building a habit. 🌱",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            },
+            {
+              "label": "The progression",
+              "text": "One sentence  ↓  Three sentences  ↓  Short phrases  ↓  Paragraph  ↓  Expression  ↓  Conversation  ↓  Story  ↓  Dialogue  ↓  User chosen material  ↓  Confidence reading  ↓  One minute challenge  This is important because by the end of Chapter 5, the user should feel:    \"I can actually spend several minutes speaking aloud without    needing the app to tell me exactly what to say.\"",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "title": "Everyday Conversations",
+      "purpose": "Help users practice common conversations they may encounter  in everyday life, using realistic situations instead of isolated  sentences.",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Early intermediate",
+      "chapter_progression": "Greeting → Introduction → Small talk → Questions → Asking for help →  Ordering → Phone conversation → Work or school → Conversation →  Spontaneous response",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH06_EX01",
+          "exercise_number": 1,
+          "title": "Say Hello",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Listen"
+          ],
+          "recording_note": "Yes  |  30 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone says:   Hi! How are you? ",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn 🎙️",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're meeting someone you know. I'll start the   conversation. Listen to what they say, then respond naturally.\"  Coach:   \"Hi! How are you?\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Answer aloud.  Possible answer:    I'm doing well. How are you?",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Maximum recording",
+              "text": "30 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You just started a conversation.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX02",
+          "exercise_number": 2,
+          "title": "Introduce Yourself",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone asks:    Nice to meet you. What's your name?",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Tell them your name and something about yourself.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you've just met someone for the first time. They ask your  \" name. Answer naturally, then tell them one thing about yourself.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Example",
+              "text": "  \"My name is David. I'm a student and I enjoy playing football.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great introduction.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX03",
+          "exercise_number": 3,
+          "title": "Where Are You From?",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone asks:    Where are you from?",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn 🎙️",
+              "text": "Answer the question.  Then tell them one thing you like about where you're from.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine someone has just asked where you're from. Answer the  \" question, then add one thing you like about your hometown, city, or  \" country.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You answered and kept the conversation going.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX04",
+          "exercise_number": 4,
+          "title": "What Do You Do?",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone asks:    What do you do?  You can talk about:  🎓 School  💼 Work  🏢 Business  🎨 Your interests",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you've just met someone and they ask what you do. You can  \" talk about school, work, your business, or something you're currently  \" interested in.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Well done. You shared something about yourself.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX05",
+          "exercise_number": 5,
+          "title": "Keep the Conversation Going",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "The person says:    I love watching movies.",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Respond and ask them a question.  For example:    \"Me too. What kind of movies do you like?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Now let's practice keeping a conversation going. Respond to what  \" the person said, then ask them a question.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak your response.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You responded and asked a question.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX06",
+          "exercise_number": 6,
+          "title": "Ask for Help",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Optional",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're somewhere unfamiliar.  You need help finding a location.  Say:    \"Excuse me, could you please tell me where the nearest bus stop    is?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're somewhere unfamiliar and need help. Practice asking  \" someone for directions. Take your time before you begin.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence aloud.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You practiced asking for help.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX07",
+          "exercise_number": 7,
+          "title": "Order Something",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You're at a café ☕  The person asks:    \"What would you like?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Order something.  Example:   \"I'd like a chicken sandwich and a bottle of water, please.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're ordering something at a café or restaurant. Tell the  \" person what you'd like. You can use the example or create your own  \" order.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Order complete. Nice work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX08",
+          "exercise_number": 8,
+          "title": "Make a Phone Call",
+          "exercise_type": "Phone conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "📱 Imagine you're calling a business.  You say:    Hello, I'm calling to ask about your opening hours.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Phone conversations can feel different because you can't see the  \" other person's face. Imagine you're calling a business to ask a  \" simple question. Take your time and make the call.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the opening sentence.  Then continue by asking:    \"What time do you close today?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just practiced a phone conversation.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX09",
+          "exercise_number": 9,
+          "title": "Talk to a Classmate or Colleague",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine someone asks:    \"Did you finish the project?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Answer.  Then ask them:   \"How is yours going?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're talking to someone at school or work. Answer their  \" question, then ask them something in return.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Respond naturally.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You kept the conversation going.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX10",
+          "exercise_number": 10,
+          "title": "Make Small Talk",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You're waiting with someone.  Start a conversation about:  ☀️ The weather  ⚽ Sports  🎵 Music  📺 A TV show  🍔 Food",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're waiting somewhere with another person. You want to  \" start a casual conversation. Choose one topic and say something to  \" begin the conversation.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You started a conversation on your own.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX11",
+          "exercise_number": 11,
+          "title": "The Unexpected Question",
+          "exercise_type": "Spontaneous conversation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone suddenly asks:    \"What's something you've always wanted to learn?\"  Take a moment.  Then answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"This time, you don't know the question in advance. Take a moment to    think before answering. There is no perfect answer.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Answer for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You handled an unexpected question. Well done.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH06_EX12",
+          "exercise_number": 12,
+          "title": "Everyday Conversations Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Reflect"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "Coach voice",
+              "text": "  \"You completed today's practice. You greeted people, introduced  \" yourself, asked questions, ordered something, practiced phone  \" conversations, and handled unexpected questions. These are the kinds  \" of conversations you can encounter every day. Keep practicing.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Which conversation would you like more practice with?  👋 Greetings  🙋 Introducing myself  💬 Small talk  📱 Phone calls  ☕ Ordering something  ❓ Answering questions",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "You're getting closer to real world conversations. 🌱",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            },
+            {
+              "label": "What the user sees",
+              "text": "Chapter 6 Complete!  12 / 12 exercises  🔥 6 Day Streak",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "title": "Building Speaking Confidence",
+      "purpose": "Not specified by client",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Intermediate",
+      "chapter_progression": "Speak to yourself → Speak to one person → Express an opinion → Ask a  question → Handle nervousness → Speak to a small group → Give a short  presentation",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH07_EX01",
+          "exercise_number": 1,
+          "title": "Say Something You Believe",
+          "exercise_type": "Confidence speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Your opinion matters.  Complete this sentence:    I believe...  You can talk about anything.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Your opinion matters. For this exercise, complete the sentence 'I  \" believe\\...' with something you genuinely think or feel. There is no  \" right answer.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You expressed your own opinion. Great start.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX02",
+          "exercise_number": 2,
+          "title": "Tell Someone About Yourself",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine someone says:  Tell me something interesting about yourself",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn 🎙️",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you've just met someone and they want to know something  \" interesting about you. Take a moment to think, then tell them  \" something about yourself.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You shared something personal. Well done.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX03",
+          "exercise_number": 3,
+          "title": "Speak to Someone New",
+          "exercise_type": "Social simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're meeting someone for the first time.  Say:   \"Hi, I'm \\[your name]. It's nice to meet you.\"  Then ask:   \"What's your name?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're meeting someone new. Start the conversation by    introducing yourself, then ask for their name. You can take a moment    before you begin.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak both sentences.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You started a conversation with someone new.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX04",
+          "exercise_number": 4,
+          "title": "Share Your Opinion",
+          "exercise_type": "Opinion speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "What's your opinion?   \"Do you think students should have less homework?\"  There is no right answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Here's a question that doesn't have one correct answer. Think  \" about what you believe. Take your time, then explain your opinion.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You shared your opinion clearly.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX05",
+          "exercise_number": 5,
+          "title": "Ask a Question",
+          "exercise_type": "Confidence speaking",
+          "broad_activity_types": [
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Optional",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're in a class or meeting.  You don't understand something.  Say:   \"Could you please explain that again?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Sometimes we want to ask a question but feel nervous about speaking.    Imagine you're in a class or meeting and you didn't understand    something. Practice asking for clarification.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence.  Then repeat it once in your own way.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Optional",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "It's okay to ask for clarification. Nice work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX06",
+          "exercise_number": 6,
+          "title": "Speak When You're Nervous",
+          "exercise_type": "Guided confidence practice",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're nervous.  Before speaking:  Pause  Breathe comfortably  Look at your first sentence  Then say:   \"I'd like to share something with you.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you feel nervous before speaking. You don't have to make  \" the nervousness disappear. Simply give yourself a moment, take a  \" comfortable breath, and begin when you're ready.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You spoke even while feeling nervous. That's progress.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX07",
+          "exercise_number": 7,
+          "title": "Tell a Friend Something Important",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine your friend asks:   \"What's something you've been thinking about lately?\"",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Tell them.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're talking to a close friend. They ask what's been on    your mind lately. Take your time and tell them whatever feels    natural.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You shared your thoughts. Well done.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX08",
+          "exercise_number": 8,
+          "title": "Speak to Three People",
+          "exercise_type": "Small group simulation",
+          "broad_activity_types": [
+            "Listen",
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine three people are listening to you.  Tell them:   \"My favorite hobby is...\"  Then explain why you enjoy it.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Now imagine three people are listening to you. Choose a hobby you    enjoy. Tell them what it is and explain why you like it. Take your    time.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just practiced speaking to a small group.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX09",
+          "exercise_number": 9,
+          "title": "Introduce Yourself to a Group",
+          "exercise_type": "Public speaking simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're joining a new group.  Say:   \"Hi everyone. My name is...\"  Then tell them:  Where you're from  What you do  One thing you enjoy",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're joining a new class, team, community, or group.   \" Introduce yourself to everyone. You can pause between each idea.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You introduced yourself to a group. Great job.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX10",
+          "exercise_number": 10,
+          "title": "Tell a Short Story to Others",
+          "exercise_type": "Public speaking simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're telling a story to a small group.  Start with:   \"Something funny happened to me recently...\"  Tell the story.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're sitting with a small group of people. You have a  \" funny or interesting story to share. Start with the sentence on the  \" screen and tell the story in your own words.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You told your story to an imaginary audience. Nice work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX11",
+          "exercise_number": 11,
+          "title": "Your One Minute Talk",
+          "exercise_type": "Public speaking challenge",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You have one minute.  Choose a topic:  🎵 Something you love  ⚽ A sport you enjoy  📚 Something you learned  💼 Your work  🌍 A place you want to visit  🎯 A goal you have",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"This is your biggest speaking challenge so far. Choose one topic and  \" speak for one minute. Imagine you're talking to a small group of  \" people who are interested in what you have to say. Take your time and  \" focus on expressing your ideas.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum:  60 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just gave a one minute talk. Be proud of that.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH07_EX12",
+          "exercise_number": 12,
+          "title": "Speaking Confidence Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 7 Complete!  12 / 12 exercises  🔥 7 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " You've completed seven days of LanSpeech practice. This week you   practiced expressing your opinions, talking to new people, asking    questions, speaking while nervous, and talking to groups. Remember,   confidence doesn't mean never feeling nervous. It means being willing    to communicate even when you do.",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Which challenge are you most proud of completing?  💬 Sharing my opinion  🙋 Introducing myself  ❓ Asking a question  👥 Speaking to a group  🎙️ Giving my one minute talk",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "7 Days Complete 🎉  You've built your first week of practice.",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            },
+            {
+              "label": "The progression",
+              "text": "Express yourself  ↓  Talk about yourself  ↓  Meet someone new  ↓  Share an opinion  ↓  Ask a question  ↓  Speak despite nervousness  ↓  Talk to a friend  ↓  Speak to three people  ↓  Introduce yourself to a group  ↓  Tell a story  ↓  Give a one minute talk  This chapter is especially important for LanSpeech because we're no  longer only practicing speech mechanics.  We're practicing communication under increasing social pressure.  And that brings us to Chapter 8, where we can make things even more  practical:",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "title": "Real World Speaking",
+      "purpose": "Help users practice speaking in practical situations they  may encounter in daily life, school, work, and public spaces.",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Intermediate",
+      "chapter_progression": "Ask for information → Make requests → Interact with service workers →  Handle appointments → Speak professionally → Handle unexpected  situations → Real world challenge",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH08_EX01",
+          "exercise_number": 1,
+          "title": "Ask for Directions",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're lost.  You see someone nearby.  Say:   Excuse me, could you please tell me how to get to the nearest bus   stop?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're somewhere unfamiliar and you need directions. Walk   up to someone and ask for help. Take your time before you begin.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You asked for help. Nice work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX02",
+          "exercise_number": 2,
+          "title": "Ask for Information",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You're visiting a new place.  Ask:   Excuse me, what time do you close?  Then ask:   How much does it cost?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're visiting a place you've never been before. Ask two    simple questions to get the information you need.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Ask both questions.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great. You got straight to the information you needed.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX03",
+          "exercise_number": 3,
+          "title": "Speak to a Receptionist",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're at a reception desk.  The receptionist says:   Good morning. How can I help you?",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Tell them why you're there.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you've just arrived at a school, office, hotel, clinic, or  \" other building. A receptionist asks how they can help. Explain why  \" you're there.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 30 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Nice. You explained what you needed.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX04",
+          "exercise_number": 4,
+          "title": "Make an Appointment",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You need to schedule an appointment.  Say:   I'd like to make an appointment, please.  Then explain:  What you need  When you'd like to come",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're calling or speaking to someone to arrange an  \" appointment. Start with the sentence on the screen, then explain what  \" you need and when you'd like to come.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Appointment request complete. Well done.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX05",
+          "exercise_number": 5,
+          "title": "Ask a Lecturer or Teacher",
+          "exercise_type": "School simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You don't understand an assignment.  Say:   Excuse me, could you please explain this part again?  Then ask your own question.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're in class and there's something you don't  \" understand. Practice asking your lecturer or teacher for  \" clarification. You can use the sentence on the screen and then ask  \" your own question.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Ask both.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Asking questions is part of learning. Great job.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX06",
+          "exercise_number": 6,
+          "title": "Speak to a Manager",
+          "exercise_type": "Workplace simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you need to speak with your manager.  Start with:   Do you have a moment? I'd like to talk to you about   something.  Then explain what you want to discuss.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're at work and you need to speak with your manager  \" about something important. Start with the sentence on the screen, then  \" explain what you want to discuss.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You handled a professional conversation. Nice work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX07",
+          "exercise_number": 7,
+          "title": "Make a Request",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "You need something.  Ask politely:   Could you please help me with this?  Then explain what you need help with.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you need help from another person. Make a polite request and   explain what you need. Take your time.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You clearly asked for what you needed.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX08",
+          "exercise_number": 8,
+          "title": "Handle a Problem",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Something went wrong.  Imagine you ordered food and received the wrong meal.  Say:   Excuse me, I think there may be a mistake with my order.  Then explain the problem.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you've received the wrong order at a restaurant. You want  \" to explain the problem politely. Start with the sentence on the  \" screen, then explain what happened.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You explained a difficult situation calmly.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX09",
+          "exercise_number": 9,
+          "title": "Introduce Yourself Professionally",
+          "exercise_type": "Professional speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're meeting someone at a professional event.  Tell them:  Your name  What you do  What you're interested in",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " Imagine you've just met someone at a networking event. Introduce   yourself and tell them what you do and what you're interested in.   Take your time.",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You just practiced a professional introduction.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX10",
+          "exercise_number": 10,
+          "title": "Answer an Unexpected Question",
+          "exercise_type": "Spontaneous speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone asks:   What are you currently working on?  Take a moment.  Then answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You weren't expecting this question. That's okay. Take a moment to    think about your answer, then respond naturally.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You took your time and responded. Great work.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX11",
+          "exercise_number": 11,
+          "title": "Your Real World Challenge",
+          "exercise_type": "Real world practice",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "No  We should not require users to secretly record real conversations with  other people.",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Your challenge 🎯  Today, have one short conversation with someone outside LanSpeech.  It could be:  👋 Greeting someone  🛒 Asking a shop worker something  ☕ Ordering something  🏫 Asking someone at school  💼 Speaking to a colleague  📱 Making a phone call",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "\"This challenge takes your practice outside the app. Choose one small  \"conversation you feel comfortable trying today. It doesn't need to be  \"difficult. The goal is simply to practice communicating.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "The user chooses one:  I completed my challenge",
+              "kind": "text"
+            },
+            {
+              "label": "Optional reflection",
+              "text": "How did it feel?  😊 Comfortable  🙂 Okay  😐 Difficult  😟 Very difficult",
+              "kind": "reflection"
+            },
+            {
+              "label": "Recording",
+              "text": "No  We should not require users to secretly record real conversations with  other people.",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You took your practice into the real world. That's a big step. 🌱",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH08_EX12",
+          "exercise_number": 12,
+          "title": "Real World Speaking Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Reflect"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 8 Complete!  12 / 12 exercises  🔥 8 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "\"You completed today's practice. You asked for information, made   requests, handled difficult situations, practiced professional    conversations, and even took one challenge outside the app. Keep    taking small steps.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Which situation would you like to practice more?  🏫 School  💼 Work  🛍️ Shops and restaurants  📱 Phone calls  🤝 Meeting new people  🌍 Asking for help",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "You're practicing for real life, one conversation at a time.",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "title": "Handling Difficult Speaking Moments",
+      "purpose": "Help users practice continuing a conversation when they  feel nervous, forget what they want to say, need more time, or lose  their train of thought.",
+      "estimated_duration": "8 to 10 minutes",
+      "difficulty": "Intermediate",
+      "chapter_progression": "Take your time → Restart → Ask for repetition → Clarify → Continue  after a pause → Handle pressure → Interview → Presentation → Recovery  challenge",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH09_EX01",
+          "exercise_number": 1,
+          "title": "Give Yourself Time",
+          "exercise_type": "Guided speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone asks:   What did you do yesterday?  Before answering:  Pause  Think  Then speak.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"You don't have to answer immediately. Take a comfortable moment to    think about your answer. When you're ready, tell me what you did    yesterday.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 45 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You gave yourself time to think.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX02",
+          "exercise_number": 2,
+          "title": "Start Again",
+          "exercise_type": "Recovery practice",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Say:   I wanted to tell you about...  Now imagine you lose your train of thought.  Start again:   Let me try that again.  Then continue.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Sometimes we lose our train of thought. That's okay. Practice   restarting instead of feeling like you have to continue from exactly   where you stopped.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence, pause, restart, and continue.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Starting again is completely okay.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX03",
+          "exercise_number": 3,
+          "title": "Ask Someone to Repeat",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Repeat"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone says something you didn't hear clearly.  Respond:   Sorry, could you say that again?",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine someone says something and you didn't hear them clearly.   Practice asking them to repeat themselves.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence.  Then repeat it in your own words.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You asked for clarification. Good communication.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX04",
+          "exercise_number": 4,
+          "title": "Ask for a Moment",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone asks:   What do you think about this idea?   You need time to think.  Try:   That's an interesting question. Let me think for a moment.  Then answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You don't always have to have an immediate answer. Practice giving   yourself a moment to think before responding.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Say the sentence and answer the question.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You gave yourself space to think.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX05",
+          "exercise_number": 5,
+          "title": "When You Forget a Word",
+          "exercise_type": "Communication strategy",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes  |  45 seconds",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you forget a word.  Don't stop.  Try explaining it another way.  For example:   \"I can't remember the word, but it's something you use to...\"",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Sometimes a word disappears from your mind while you're speaking.   Instead of stopping completely, practice explaining what you mean in   another way.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Choose something around you.  Describe it without saying its name.  Example:   \"It's something you use to write. It has ink inside...\"",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Maximum recording",
+              "text": "45 seconds",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You found another way to communicate your idea.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX06",
+          "exercise_number": 6,
+          "title": "Keep Going After a Pause",
+          "exercise_type": "Free speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label":"What the user sees",
+              "text": "Tell me about your favorite place.  You may pause.  You may think.  Then continue.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Tell me about your favorite place. If you need to pause while    you're speaking, that's okay. When you're ready, continue with your    next idea.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You kept communicating even when you paused.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX07",
+          "exercise_number": 7,
+          "title": "Answer Under Pressure",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine someone asks:   Why should we choose you?  This could be:  A job interview  A scholarship interview  A competition  A business opportunity",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're in an important conversation and someone asks why    they should choose you. Take a moment, then explain what makes you a    good choice.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You handled a challenging question.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX08",
+          "exercise_number": 8,
+          "title": "Practice an Interview",
+          "exercise_type": "Interview simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Interviewer:",
+              "text": " \"Tell me about yourself.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn 🎙️",
+              "text": "",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're in an interview. The interviewer asks you to tell    them about yourself. Give a short answer that includes who you are,    what you do, and something you're working toward.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Interview question complete.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX09",
+          "exercise_number": 9,
+          "title": "Explain Something",
+          "exercise_type": "Presentation practice",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Teach me something you know.  Choose:  📱 Technology  ⚽ Sports  🍳 Cooking  📚 School  💼 Work  🎮 Gaming",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine someone doesn't know anything about your topic. Teach them    something simple. Explain it as if you're talking to one person who   genuinely wants to understand.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You explained an idea clearly.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX10",
+          "exercise_number": 10,
+          "title": "Disagree Respectfully",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone says:   I think everyone should work from home.  You disagree.  Start with:   I understand your point, but I think...\"  Then explain your opinion.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine someone gives an opinion that you don't agree with.    Practice disagreeing respectfully. You don't need to convince them.    Simply explain your own view.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You expressed disagreement respectfully.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX11",
+          "exercise_number": 11,
+          "title": "The Recovery Challenge",
+          "exercise_type": "Advanced speaking challenge",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Tell a story for one minute.  But there's a twist.  At some point during your recording:  Pause intentionally.  Then say:    Let me continue...\"  And keep speaking.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"This exercise is about recovery. Tell a short story for one minute.    At some point, pause intentionally. Then say, 'Let me continue,' and    keep telling your story. The goal isn't to avoid pauses. It's to    practice continuing after one.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum:  60 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You recovered and kept going. That's an important skill.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH09_EX12",
+          "exercise_number": 12,
+          "title": "Difficult Speaking Moments Complete 🎉",
+          "exercise_type": "Reflection and completion",
+          "broad_activity_types": [
+            "Reflect",
+            "Repeat",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Chapter 9 Complete!  12 / 12 exercises  🔥 9 Day Streak",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Today you practiced something very important. You practiced what to    do when speaking doesn't go exactly as planned. You asked people to    repeat themselves, gave yourself time, restarted your sentences,    explained words you forgot, handled difficult questions, and continued    after pauses.\"  Then:  \"Remember, a pause doesn't mean you've failed. Losing a word    doesn't mean you've failed. Starting again doesn't mean you've    failed. Communication can continue.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Which skill do you want to practice more?  ⏸️ Giving myself time  🔄 Starting again  ❓ Asking someone to repeat  💭 Finding another way to explain something  🎤 Handling difficult questions",
+              "kind": "reflection"
+            },
+            {
+              "label": "Final message",
+              "text": "9 Days Complete 🎉  You don't have to speak perfectly to communicate effectively.",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Finish Practice",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "title": "Your Speaking Challenge",
+      "purpose": "Bring together the skills from Chapters 1 through 9 through  increasingly realistic speaking activities.",
+      "estimated_duration": "10 to 12 minutes",
+      "difficulty": "Intermediate",
+      "chapter_progression": "Warm up → Personal introduction → Conversation → Story → Opinion →  Real world situation → Professional situation → Unexpected question →  One minute talk → Final challenge",
+      "exercise_count": 12,
+      "exercises": [
+        {
+          "internal_id": "CH10_EX01",
+          "exercise_number": 1,
+          "title": "Your Voice, Your Way",
+          "exercise_type": "Warm up",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Yes",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Start your final chapter 🌱  Say:   \"I'm ready to practice speaking today.\"  Take your time.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"You've made it to the final chapter. Let's start simply. Say the    sentence on the screen in whatever way feels comfortable.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak the sentence.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Yes",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You're ready. Let's begin.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX02",
+          "exercise_number": 2,
+          "title": "Introduce Yourself",
+          "exercise_type": "Personal speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Tell me about yourself.  Include:  Your name  Where you're from  What you do  Something you enjoy",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you've just met someone for the first time. Introduce    yourself. You can use the four points on the screen to guide you, but    say everything in your own words.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "Great introduction.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX03",
+          "exercise_number": 3,
+          "title": "Have a Conversation",
+          "exercise_type": "Conversation simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "The other person says:   It's nice to meet you. What do you enjoy doing in your free   time?",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Answer.  Then ask them a question.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're meeting someone new. Answer their question, then ask    them something about themselves. Try to keep the conversation going    naturally.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You kept a conversation going.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX04",
+          "exercise_number": 4,
+          "title": "Tell Me a Story",
+          "exercise_type": "Storytelling",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Tell a short story.  Start with:   One of the most memorable days I've had was...",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Think of a memorable day in your life. It could be funny, exciting,   surprising, or meaningful. Tell the story in your own words.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You told a complete story.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX05",
+          "exercise_number": 5,
+          "title": "Share Your Opinion",
+          "exercise_type": "Opinion speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "What's your opinion?   Do you think social media makes people's lives better?  There is no correct answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Think about what you genuinely believe. Take a moment if you need   one, then explain your opinion. You can agree, disagree, or have a   mixed opinion.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You expressed your own point of view.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX06",
+          "exercise_number": 6,
+          "title": "Handle a Real World Situation",
+          "exercise_type": "Real world simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're at a restaurant.  Your food arrives and it's not what you ordered.  Say:   \"Excuse me, I think there may be a mistake with my order.\"  Then explain what you ordered.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you're in a real restaurant. Something has gone wrong with    your order. Explain the situation politely and tell the person what    you need.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You handled the situation calmly.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX07",
+          "exercise_number": 7,
+          "title": "Professional Introduction",
+          "exercise_type": "Professional speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're at a networking event.  Tell someone:  Who you are  What you do  What you're working on  What you're interested in",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "  \"Imagine you've just met someone at a professional event. Give them    a short introduction. You don't need to memorize anything. Just    communicate your ideas naturally.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "That's a strong professional introduction.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX08",
+          "exercise_number": 8,
+          "title": "The Unexpected Question",
+          "exercise_type": "Spontaneous speaking",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Someone suddenly asks:   What is one goal you're working toward right now?",
+              "kind": "text"
+            },
+            {
+              "label": "Your turn",
+              "text": "Take a moment.  Then answer.",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"You weren't expecting this question. That's okay. Take a moment to    think. Then tell the person about one goal you're currently working    toward.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 60 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You handled an unexpected question.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX09",
+          "exercise_number": 9,
+          "title": "Explain Something You Know",
+          "exercise_type": "Teaching simulation",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Teach me something.  Choose something you know well.  Examples:  📱 Technology  ⚽ Sports  🎵 Music  🍳 Cooking  💼 Business  🎮 Gaming  📚 School",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"Imagine you're explaining something to someone who knows nothing    about it. Choose a topic you understand and teach them something    useful.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "Speak for up to 90 seconds.",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You explained an idea clearly.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX10",
+          "exercise_number": 10,
+          "title": "Keep Speaking",
+          "exercise_type": "Fluency challenge",
+          "broad_activity_types": [
+            "Record",
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Speak for 90 seconds.  Choose any topic.  You can:  Pause  Think  Restart  Change your words  Continue",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"This challenge is about continuing to communicate. Choose any topic    you like and speak for 90 seconds. You can pause. You can restart a    sentence. You can change your words. You don't have to speak    perfectly.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Recording  Maximum:  90 seconds",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You kept going. That's what matters.",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX11",
+          "exercise_number": 11,
+          "title": "The Final Speaking Challenge 🎤",
+          "exercise_type": "Final challenge",
+          "broad_activity_types": [
+            "Speak"
+          ],
+          "recording_note": "Required",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Imagine you're speaking to a small audience.  You have 2 minutes.  Tell them:  Who you are  Something you've experienced  Something you care about  Something you're working toward  One thing you want people to remember about you",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": " \"This is your final challenge. Imagine you're standing in front of a    small audience. You have two minutes to introduce yourself, share    something about your life, talk about something you care about, tell    them what you're working toward, and finish with one thing you want    them to remember about you.\"  Then:    \"Take a moment before you begin. You don't need to rush. You don't   need to be perfect. Just communicate.\"",
+              "kind": "text"
+            },
+            {
+              "label": "User action",
+              "text": "🎙️ Start Final Challenge  Maximum:  2 minutes",
+              "kind": "text"
+            },
+            {
+              "label": "Recording",
+              "text": "Required",
+              "kind": "recording"
+            },
+            {
+              "label": "Completion message",
+              "text": "You did it. 🎉",
+              "kind": "text"
+            }
+          ]
+        },
+        {
+          "internal_id": "CH10_EX12",
+          "exercise_number": 12,
+          "title": "You Completed LanSpeech 🎉",
+          "exercise_type": "Graduation and reflection",
+          "broad_activity_types": [
+            "Reflect",
+            "Speak"
+          ],
+          "recording_note": "Not specified by client",
+          "sections": [
+            {
+              "label": "What the user sees",
+              "text": "Congratulations!  You completed all 10 chapters.  120 exercises completed  🔥 30 Day Program Complete",
+              "kind": "text"
+            },
+            {
+              "label": "Coach voice",
+              "text": "\"You made it to the end of your LanSpeech program.\"  Pause.    \"You practiced speaking, reading, conversations, real world    situations, confidence, difficult speaking moments, and longer    speaking challenges.\"  Pause.    \"But remember, completing this program isn't the end of your    speaking journey. It's the beginning of your continued practice.\"  Then:    \"Keep giving yourself permission to communicate.\"",
+              "kind": "text"
+            },
+            {
+              "label": "Reflection",
+              "text": "Look how far you've come.  Day 1  \"I am ready to practice.\"  ↓  Day 30  \"Your final two minute challenge.\"",
+              "kind": "reflection"
+            },
+            {
+              "label": "User chooses:",
+              "text": "What are you most proud of?  🌱 I built a speaking habit  🗣️ I speak more comfortably  💬 I can handle conversations better  🎙️ I can speak for longer  💪 I feel more confident",
+              "kind": "text"
+            },
+            {
+              "label": "Final screen",
+              "text": "🎉 You Did It!  30 days of practice.  10 chapters.  120 exercises.  One stronger speaking habit.",
+              "kind": "text"
+            },
+            {
+              "label": "Button",
+              "text": "Continue Practicing",
+              "kind": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
