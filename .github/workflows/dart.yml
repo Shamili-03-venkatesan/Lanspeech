@@ -77,6 +77,7 @@ jobs:
 
           echo '=== actool validation: repository catalog ==='
           rm -rf "$RUNNER_TEMP/actool-repository"
+          mkdir -p "$RUNNER_TEMP/actool-repository"
           set +e
           xcrun actool \
             --platform iphoneos \
@@ -86,17 +87,21 @@ jobs:
             --app-icon AppIcon \
             --output-partial-info-plist "$RUNNER_TEMP/repository-partial.plist" \
             --compile "$RUNNER_TEMP/actool-repository" \
-            "$assets_dir"
-          repository_actool_status=$?
+            "$assets_dir" 2>&1 | tee "$RUNNER_TEMP/repository-actool.log"
+          repository_actool_status=${PIPESTATUS[0]}
           set -e
           echo "Repository actool exit status: $repository_actool_status"
 
           echo '=== Fresh Flutter iOS project comparison ==='
-          probe="$RUNNER_TEMP/flutter-ios-probe"
+          probe="$RUNNER_TEMP/flutter_ios_probe"
           rm -rf "$probe"
           flutter create --platforms=ios --org com.example "$probe"
+          echo '=== Fresh Flutter AppIcon Contents.json ==='
           cat "$probe/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json"
+          echo '=== Repository versus fresh Flutter Contents.json ==='
+          diff -u "$appicon_dir/Contents.json" "$probe/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" || true
           rm -rf "$RUNNER_TEMP/actool-flutter"
+          mkdir -p "$RUNNER_TEMP/actool-flutter"
           set +e
           xcrun actool \
             --platform iphoneos \
@@ -106,14 +111,15 @@ jobs:
             --app-icon AppIcon \
             --output-partial-info-plist "$RUNNER_TEMP/flutter-partial.plist" \
             --compile "$RUNNER_TEMP/actool-flutter" \
-            "$probe/ios/Runner/Assets.xcassets"
-          flutter_actool_status=$?
+            "$probe/ios/Runner/Assets.xcassets" 2>&1 | tee "$RUNNER_TEMP/flutter-actool.log"
+          flutter_actool_status=${PIPESTATUS[0]}
           set -e
           echo "Fresh Flutter actool exit status: $flutter_actool_status"
 
           echo '=== project.pbxproj before Flutter build ==='
           cp ios/Runner.xcodeproj/project.pbxproj "$RUNNER_TEMP/project-before-build.pbxproj"
-          git diff -- ios/Runner.xcodeproj/project.pbxproj || true
+          git diff -- ios/Runner.xcodeproj/project.pbxproj > "$RUNNER_TEMP/project-before-build.diff" || true
+          cat "$RUNNER_TEMP/project-before-build.diff"
 
           echo '=== AppIcon catalog diagnostic complete ==='
 
@@ -124,7 +130,7 @@ jobs:
         shell: bash
         run: |
           echo '=== project.pbxproj after Flutter build ==='
-          git diff -- ios/Runner.xcodeproj/project.pbxproj || true
+          git diff -- ios/Runner.xcodeproj/project.pbxproj | tee "$RUNNER_TEMP/project-after-build.diff" || true
           echo '=== AppIcon settings after Flutter build ==='
           grep -n -E 'ASSETCATALOG_COMPILER_APPICON_NAME|TARGETED_DEVICE_FAMILY|IPHONEOS_DEPLOYMENT_TARGET|PRODUCT_BUNDLE_IDENTIFIER' ios/Runner.xcodeproj/project.pbxproj || true
           if ! cmp -s "$RUNNER_TEMP/project-before-build.pbxproj" ios/Runner.xcodeproj/project.pbxproj; then
