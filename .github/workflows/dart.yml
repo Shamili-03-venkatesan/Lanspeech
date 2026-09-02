@@ -20,7 +20,118 @@ jobs:
       - run: pod repo update
         working-directory: ios
 
+      - name: Diagnose iOS AppIcon with actool
+        shell: bash
+        run: |
+          set -uo pipefail
+
+          echo '=== Xcode and actool versions ==='
+          xcodebuild -version
+          xcrun --find actool
+          xcrun actool --version
+
+          appicon_dir="ios/Runner/Assets.xcassets/AppIcon.appiconset"
+          assets_dir="ios/Runner/Assets.xcassets"
+
+          echo '=== AppIcon Contents.json from Git HEAD ==='
+          git show HEAD:"$appicon_dir/Contents.json"
+
+          echo '=== AppIcon files tracked by Git HEAD ==='
+          git ls-tree -r --name-only HEAD "$appicon_dir"
+
+          echo '=== AppIcon Contents.json from checkout ==='
+          cat "$appicon_dir/Contents.json"
+
+          echo '=== AppIcon files, including hidden files ==='
+          find "$appicon_dir" -maxdepth 1 -print | sort
+
+          echo '=== All asset catalog manifests ==='
+          find "$assets_dir" -name Contents.json -print -exec cat {} \;
+
+          echo '=== Referenced AppIcon files ==='
+          missing=0
+          while IFS= read -r filename; do
+            file="$appicon_dir/$filename"
+            if [[ ! -f "$file" ]]; then
+              echo "MISSING: $file"
+              missing=1
+            elif ! git ls-tree -r --name-only HEAD -- "$file" | grep -Fxq "$file"; then
+              echo "NOT TRACKED IN HEAD: $file"
+              missing=1
+            else
+              echo "FOUND AND TRACKED IN HEAD: $file"
+            fi
+          done < <(jq -r '.images[] | select(.filename != null) | .filename' "$appicon_dir/Contents.json")
+          if [[ "$missing" -ne 0 ]]; then
+            exit 1
+          fi
+
+          echo '=== sips metadata for every AppIcon PNG ==='
+          while IFS= read -r -d '' file; do
+            echo "--- $file"
+            sips -g pixelWidth -g pixelHeight -g format -g hasAlpha -g space -g profile "$file"
+          done < <(find "$appicon_dir" -maxdepth 1 -type f -iname '*.png' -print0 | sort -z)
+
+          echo '=== Xcode target settings ==='
+          grep -n -E 'ASSETCATALOG_COMPILER(_[^ ]+)?|TARGETED_DEVICE_FAMILY|IPHONEOS_DEPLOYMENT_TARGET|PRODUCT_BUNDLE_IDENTIFIER' ios/Runner.xcodeproj/project.pbxproj
+
+          echo '=== actool validation: repository catalog ==='
+          rm -rf "$RUNNER_TEMP/actool-repository"
+          set +e
+          xcrun actool \
+            --platform iphoneos \
+            --minimum-deployment-target 13.0 \
+            --target-device iphone \
+            --target-device ipad \
+            --app-icon AppIcon \
+            --output-partial-info-plist "$RUNNER_TEMP/repository-partial.plist" \
+            --compile "$RUNNER_TEMP/actool-repository" \
+            "$assets_dir"
+          repository_actool_status=$?
+          set -e
+          echo "Repository actool exit status: $repository_actool_status"
+
+          echo '=== Fresh Flutter iOS project comparison ==='
+          probe="$RUNNER_TEMP/flutter-ios-probe"
+          rm -rf "$probe"
+          flutter create --platforms=ios --org com.example "$probe"
+          cat "$probe/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json"
+          rm -rf "$RUNNER_TEMP/actool-flutter"
+          set +e
+          xcrun actool \
+            --platform iphoneos \
+            --minimum-deployment-target 13.0 \
+            --target-device iphone \
+            --target-device ipad \
+            --app-icon AppIcon \
+            --output-partial-info-plist "$RUNNER_TEMP/flutter-partial.plist" \
+            --compile "$RUNNER_TEMP/actool-flutter" \
+            "$probe/ios/Runner/Assets.xcassets"
+          flutter_actool_status=$?
+          set -e
+          echo "Fresh Flutter actool exit status: $flutter_actool_status"
+
+          echo '=== project.pbxproj before Flutter build ==='
+          cp ios/Runner.xcodeproj/project.pbxproj "$RUNNER_TEMP/project-before-build.pbxproj"
+          git diff -- ios/Runner.xcodeproj/project.pbxproj || true
+
+          echo '=== AppIcon catalog diagnostic complete ==='
+
       - run: flutter build ios --release --no-codesign
+
+      - name: Check Flutter build project changes
+        if: always()
+        shell: bash
+        run: |
+          echo '=== project.pbxproj after Flutter build ==='
+          git diff -- ios/Runner.xcodeproj/project.pbxproj || true
+          echo '=== AppIcon settings after Flutter build ==='
+          grep -n -E 'ASSETCATALOG_COMPILER_APPICON_NAME|TARGETED_DEVICE_FAMILY|IPHONEOS_DEPLOYMENT_TARGET|PRODUCT_BUNDLE_IDENTIFIER' ios/Runner.xcodeproj/project.pbxproj || true
+          if ! cmp -s "$RUNNER_TEMP/project-before-build.pbxproj" ios/Runner.xcodeproj/project.pbxproj; then
+            echo 'Flutter changed ios/Runner.xcodeproj/project.pbxproj during the build.'
+          else
+            echo 'Flutter did not change ios/Runner.xcodeproj/project.pbxproj during the build.'
+          fi
 
       - run: mkdir Payload
         working-directory: build/ios/iphoneos
